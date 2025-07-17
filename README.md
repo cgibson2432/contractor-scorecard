@@ -1,2 +1,7 @@
-# contractor-scorecard
-Landing page for Contractor Coverage Scorecard
+<!DOCTYPE html>
+<html>
+  <head><title>Test</title></head>
+  <body>
+    <h1>Hello from Albano Insurance!</h1>
+  </body>
+</html>
