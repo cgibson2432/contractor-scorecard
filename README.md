@@ -1,7 +1,93 @@
 <!DOCTYPE html>
-<html>
-  <head><title>Test</title></head>
-  <body>
-    <h1>Hello from Albano Insurance!</h1>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contractor Coverage Scorecard™ | Albano Insurance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0; background: #f9fafb; color: #1f2937;
+    }
+    header { background: #0f172a; padding: 1.5rem; text-align: center; color: white; }
+    header img.logo { max-height: 60px; margin-bottom: 1rem; background: white; padding: 0.5rem; border-radius: 8px; }
+    header h1 { margin: 0.5rem 0 0.25rem; font-size: 1.75rem; }
+    header p { margin: 0; font-size: 1rem; opacity: 0.8; }
+
+    .container { max-width: 800px; margin: 2rem auto; background: white;
+                 border-radius: 0.75rem; padding: 2rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; }
+
+    .container img.marketing { max-width: 100%; height: auto; margin-bottom: 2rem; border-radius: 0.5rem; }
+
+    h2 { font-size: 1.25rem; margin-bottom: 0.75rem; color: #0f172a; text-align: left; }
+    ul { padding-left: 1.25rem; margin-bottom: 2rem; text-align: left; }
+
+    .form-wrapper { margin-top: 1rem; text-align: left; }
+    .form-wrapper h2 { text-align: center; }
+    .form-wrapper p { margin: 0.5rem 0; }
+
+    footer {
+      text-align: center; padding: 1rem; font-size: 0.875rem; color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img class="logo" src="https://raw.githubusercontent.com/cgibson2432/contractor-scorecard/main/AlbanoInsurance_logo-fullcolor.jpg" alt="Albano Insurance Solutions Logo" />
+    <h1>Contractor Coverage Scorecard™</h1>
+    <p>Find what's inflating your premiums — and how to fix it.</p>
+  </header>
+
+  <div class="container">
+    <img class="marketing" src="https://raw.githubusercontent.com/cgibson2432/contractor-scorecard/main/Contractor%20hammered%20Marketing.png" alt="Contractors in California are getting hammered by rising insurance costs" />
+
+    <div class="form-wrapper">
+      <h2>Is Your Contractor Insurance Costing You Too Much?</h2>
+      <p><strong>Get a 5-Point Second Opinion with Our Contractor Coverage Scorecard™</strong></p>
+      <p>Most California contractors are overpaying for insurance because their broker doesn’t properly position the risk—or isn’t quoting the right markets.</p>
+
+      <h2>✅ What You’ll Get:</h2>
+      <ul>
+        <li>A personalized Contractor Coverage Scorecard™</li>
+        <li>Review of your class codes, payroll, auto, and subcontractor exposure</li>
+        <li>Recommendations to reduce audit risk and lower premiums</li>
+        <li>Access to 40+ construction-specialized carriers (including non-admitted markets)</li>
+      </ul>
+
+      <h2>🚫 What You Won’t Get:</h2>
+      <ul>
+        <li>High-pressure sales</li>
+        <li>Cookie-cutter quotes</li>
+        <li>A broker who only shops 2–3 carriers</li>
+      </ul>
+
+      <h2>🔍 We Specialize In:</h2>
+      <ul>
+        <li>GCs & Subcontractors: Concrete, Electrical, HVAC, Plumbing, Roofing, Framing, and more</li>
+        <li>Workers’ Comp (including mod reduction strategies)</li>
+        <li>Commercial Auto Fleets</li>
+        <li>GL with residential or subcontractor exposure</li>
+        <li>New ventures & tough class codes</li>
+      </ul>
+
+      <h2>📞 Ready for Your Free Review?</h2>
+      <ul>
+        <li><strong>▶ Start Here:</strong></li>
+        <li>🖊️ Fill out the form and Chris Gibson will reach out to you within 24 hours</li>
+        <li>📅 Book a 10-minute review call with Chris: <a href="https://outlook.office365.com/owa/calendar/InsuranceReviewMeeting@addlins.com/bookings/" target="_blank" style="color: #2563eb; text-decoration: underline;">Book Here</a></li>
+        <li>✅ Get your risk score and market options</li>
+      </ul>
+
+      <script src='https://albaoninssurancesolutions.myfreshworks.com/crm/sales/web_forms/52e8505405a641d5032d2a34145c06e5511a7674b23a3d00da45fc55e06c05b2/form.js' crossorigin='anonymous' id='fs_52e8505405a641d5032d2a34145c06e5511a7674b23a3d00da45fc55e06c05b2'></script>
+    </div>
+  </div>
+
+  <footer>
+    Albano Insurance Solutions · 916-864-4983 · CA LIC 0D16140 | Agency LIC 0442296
+  </footer>
+
+</body>
 </html>
+
