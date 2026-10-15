@@ -14,6 +14,7 @@ A browser-based MVP for reviewing contractor insurance premiums and flagging iss
 - Workers' compensation premium per $100 payroll and general liability premium per $1,000 revenue calculations when inputs are available
 - Optional user-entered benchmark comparisons with clear comparability caveats
 - Prioritized prompts for class codes, audit readiness, subcontractor documentation, contract endorsements, certificates, loss runs, renewal planning, and market strategy
+- Illustrative premium mix bars, trade-specific GL cost range comparison, and selected WC class advisory-rate context in the generated report
 - Print / Save PDF, JSON export, and copy-summary actions
 - Sourced benchmark reference page: California WCIRB advisory pure premium rates effective September 1, 2026, plus clearly labeled GL premium-to-revenue estimates converted to cost per $1,000
 - Responsive design with Albano Insurance Solutions branding
