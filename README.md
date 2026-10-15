@@ -7,6 +7,7 @@ A browser-based MVP for reviewing contractor insurance premiums and flagging iss
 ## Launch the tool
 - **Diagnostic app:** [Open the Contractor Insurance Diagnostic](./diagnostic/)
 - **Launch page:** [Open the project landing page](./)
+- **Benchmark table:** [California contractor WC and GL cost references](./benchmarks.html)
 
 ## Current features
 - Intake for contractor trade, renewal, revenue, payroll, vehicles, and annual premiums by coverage line
@@ -14,6 +15,7 @@ A browser-based MVP for reviewing contractor insurance premiums and flagging iss
 - Optional user-entered benchmark comparisons with clear comparability caveats
 - Prioritized prompts for class codes, audit readiness, subcontractor documentation, contract endorsements, certificates, loss runs, renewal planning, and market strategy
 - Print / Save PDF, JSON export, and copy-summary actions
+- Sourced benchmark reference page: California WCIRB advisory pure premium rates effective September 1, 2026, plus clearly labeled GL premium-to-revenue estimates converted to cost per $1,000
 - Responsive design with Albano Insurance Solutions branding
 
 ## Privacy and limitations
