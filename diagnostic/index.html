@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contractor Insurance Risk Analysis | Albano Insurance Solutions</title>
+<meta name="description" content="A practical contractor insurance diagnostic from Albano Insurance Solutions. Review premium structure, coverage readiness, and renewal/service risks.">
+<style>
+:root{--navy:#102744;--blue:#1769aa;--sky:#eaf4fc;--ink:#172b42;--muted:#617286;--line:#d9e2ec;--paper:#fff;--bg:#f3f6fa;--green:#176b4d;--amber:#8a5a00;--red:#a02b2b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(120deg,#102744,#1b5487);color:#fff;padding:24px 18px}
+.head{max-width:1180px;margin:auto;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.logo{width:160px;max-height:72px;object-fit:contain;background:#fff;border-radius:7px;padding:7px}
+h1{font-size:clamp(24px,4vw,34px);line-height:1.15;margin:0 0 7px}header p{margin:0;color:#e3edf8}
+.wrap{max-width:1180px;margin:22px auto;padding:0 14px 34px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(320px,.95fr);gap:18px;align-items:start}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:0 5px 20px #122b4408}
+h2{font-size:20px;margin:0 0 6px;color:var(--navy)}h3{font-size:16px;margin:20px 0 10px;color:var(--navy)}
+.sub{color:var(--muted);margin:0 0 16px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.field{display:flex;flex-direction:column;gap:5px}.field.full{grid-column:1/-1}
+label{font-size:12px;font-weight:700;color:#344b62}
+input,select,textarea{width:100%;border:1px solid #c9d5e1;border-radius:8px;padding:10px 11px;font:inherit;color:var(--ink);background:#fff;min-width:0}
+input:focus,select:focus,textarea:focus{outline:2px solid #8bc4f0;border-color:var(--blue)}
+.checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.check{display:flex;align-items:flex-start;gap:8px;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:13px}.check input{width:auto;margin-top:4px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+button{border:0;border-radius:8px;padding:11px 14px;font-weight:700;font-size:13px;cursor:pointer}
+.primary{background:var(--blue);color:white}.secondary{background:var(--sky);color:var(--navy)}.plain{background:#eef1f5;color:#263b50}
+.result{position:sticky;top:12px}.empty{border:1px dashed #b8c8d7;background:#f8fbfe;padding:20px;border-radius:10px;color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:15px 0}
+.kpi{padding:13px;border-radius:10px;background:#f2f7fc;border:1px solid #e1eaf3}.kpi span{display:block;font-size:11px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.04em}.kpi strong{display:block;font-size:21px;margin-top:3px;color:var(--navy);overflow-wrap:anywhere}
+.section{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}.pill{display:inline-block;border-radius:100px;padding:3px 8px;font-size:11px;font-weight:800;margin-right:6px}.high{background:#fde8e7;color:var(--red)}.medium{background:#fff1d6;color:var(--amber)}.low{background:#e4f5ec;color:var(--green)}
+.finding{padding:11px 0;border-bottom:1px solid #edf1f5}.finding:last-child{border-bottom:0}.finding strong{display:block;margin:4px 0}.finding p{margin:0;color:#4b6075;font-size:13px}
+small,.fine{font-size:12px;color:var(--muted)}.report-title{display:flex;justify-content:space-between;gap:12px;align-items:start;flex-wrap:wrap}.hidden{display:none!important}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:10px 18px 24px}
+@media(max-width:850px){.wrap{grid-template-columns:1fr}.result{position:static}}@media(max-width:520px){.grid,.checks{grid-template-columns:1fr}.panel{padding:15px}.logo{width:125px}}
+@media print{body{background:#fff;font-size:11px}.no-print,form{display:none!important}.wrap{display:block;max-width:none;margin:0;padding:0}.panel{box-shadow:none;border:0;padding:0}.result{position:static}.empty{display:none}header{padding:12px 0;background:#fff;color:#102744}header p{color:#344b62}.logo{max-height:42px}footer{padding:10px 0}.kpi{break-inside:avoid}.finding{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header><div class="head"><img class="logo" src="https://raw.githubusercontent.com/cgibson2432/contractor-scorecard/main/AlbanoInsurance_logo-fullcolor.jpg" alt="Albano Insurance Solutions"><div><h1>Contractor Insurance Risk Analysis</h1><p>Insurance Optimization Made Easy · A practical second opinion for California contractors</p></div></div></header>
+<main class="wrap">
+<section class="panel no-print">
+<h2>Contractor intake</h2><p class="sub">Enter what you know. Leave unknown fields blank; the diagnostic will not treat missing information as a failure.</p>
+<form id="intake">
+<h3>1 · Business profile</h3>
+<div class="grid">
+<div class="field"><label for="company">Business name</label><input id="company" autocomplete="organization" placeholder="Company name"></div>
+<div class="field"><label for="contact">Contact name (optional)</label><input id="contact" autocomplete="name" placeholder="Owner or contact"></div>
+<div class="field"><label for="trade">Primary trade</label><select id="trade"><option value="">Select trade</option><option>General contractor</option><option>Electrical</option><option>Plumbing</option><option>HVAC</option><option>Roofing</option><option>Painting</option><option>Concrete</option><option>Framing / drywall</option><option>Landscaping</option><option>Masonry</option><option>Solar</option><option>Restoration / remediation</option><option>Other specialty trade</option></select></div>
+<div class="field"><label for="state">State of operations</label><select id="state"><option>California</option><option>Other / multistate</option></select></div>
+<div class="field"><label for="cslb">CSLB license # (if applicable)</label><input id="cslb" placeholder="e.g. 1234567"></div>
+<div class="field"><label for="renewal">Next renewal date</label><input id="renewal" type="date"></div>
+<div class="field"><label for="revenue">Annual gross revenue ($)</label><input id="revenue" type="number" min="0" step="1000" placeholder="e.g. 2500000"></div>
+<div class="field"><label for="payroll">Annual workers' comp payroll ($)</label><input id="payroll" type="number" min="0" step="1000" placeholder="e.g. 650000"></div>
+<div class="field"><label for="employees">Employee headcount</label><input id="employees" type="number" min="0" step="1" placeholder="e.g. 8"></div>
+<div class="field"><label for="vehicles">Commercial vehicles</label><input id="vehicles" type="number" min="0" step="1" placeholder="e.g. 5"></div>
+</div>
+<h3>2 · Current annual premiums</h3>
+<div class="grid">
+<div class="field"><label for="wc">Workers' compensation ($)</label><input id="wc" type="number" min="0" step="0.01" placeholder="Annual premium"></div>
+<div class="field"><label for="gl">General liability ($)</label><input id="gl" type="number" min="0" step="0.01" placeholder="Annual premium"></div>
+<div class="field"><label for="auto">Commercial auto ($)</label><input id="auto" type="number" min="0" step="0.01" placeholder="Annual premium"></div>
+<div class="field"><label for="umbrella">Umbrella / excess ($)</label><input id="umbrella" type="number" min="0" step="0.01" placeholder="Annual premium"></div>
+<div class="field"><label for="property">Property / tools / inland marine ($)</label><input id="property" type="number" min="0" step="0.01" placeholder="Annual premium"></div>
+<div class="field"><label for="other">Other commercial insurance ($)</label><input id="other" type="number" min="0" step="0.01" placeholder="Annual premium"></div>
+</div>
+<h3>3 · Benchmark inputs (optional)</h3><p class="sub">Use only a credible, comparable benchmark for the same state, trade/class, exposure basis, limits, and underwriting context. Leave blank if not validated.</p>
+<div class="grid">
+<div class="field"><label for="wcBenchmark">Comparable WC rate per $100 payroll ($)</label><input id="wcBenchmark" type="number" min="0" step="0.01" placeholder="Verified benchmark rate"></div>
+<div class="field"><label for="glBenchmark">Comparable GL rate per $1,000 revenue ($)</label><input id="glBenchmark" type="number" min="0" step="0.01" placeholder="Verified benchmark rate"></div>
+</div>
+<h3>4 · Areas to review</h3>
+<div class="checks">
+<label class="check"><input id="classCodes" type="checkbox"> WC class codes or payroll allocation may need review</label>
+<label class="check"><input id="audit" type="checkbox"> Prior audit surprise or disputed audit</label>
+<label class="check"><input id="subs" type="checkbox"> Subcontractors / certificates / W-9 tracking needs review</label>
+<label class="check"><input id="contracts" type="checkbox"> Contract-required additional insured or waiver endorsements uncertain</label>
+<label class="check"><input id="certs" type="checkbox"> Certificates often delayed or rejected</label>
+<label class="check"><input id="losses" type="checkbox"> Recent claims or loss runs need review</label>
+<label class="check"><input id="renewalIssue" type="checkbox"> Renewal is within 90 days or renewal plan is unclear</label>
+<label class="check"><input id="markets" type="checkbox"> Few markets approached or marketing strategy unclear</label>
+</div>
+<div class="field full" style="margin-top:12px"><label for="notes">Notes / specific concerns</label><textarea id="notes" rows="3" placeholder="Examples: premium increase, audit dispute, bid requirements, coverage questions"></textarea></div>
+<div class="actions"><button class="primary" type="submit">Generate diagnostic</button><button class="secondary" type="button" id="clear">Clear form</button></div>
+<p class="fine">Privacy note: this browser-only tool does not submit the information to Albano or save it to a server. Do not enter Social Security numbers, banking information, claimants' medical details, or other sensitive personal information.</p>
+</form>
+</section>
+<section class="panel result" id="report">
+<div class="report-title"><div><h2>Insurance Risk Analysis Report</h2><p class="sub" id="reportSub">Complete the intake and select “Generate diagnostic.”</p></div><div class="no-print actions" style="margin-top:0"><button class="secondary" id="print" type="button">Print / Save PDF</button><button class="secondary" id="export" type="button">Export JSON</button><button class="secondary" id="copy" type="button">Copy summary</button></div></div>
+<div id="empty" class="empty">Your report will show premium totals, exposure ratios when inputs are available, and prioritized review items. It will not invent a risk score or promise savings.</div>
+<div id="output" class="hidden"></div>
+<p class="fine" style="margin-top:18px">Prepared by Albano Insurance Solutions · 916-864-4983 · CA License 0D16140 · Agency License 0442296</p>
+</section>
+</main>
+<footer>Preliminary screening tool only. Not an insurance quote, underwriting decision, coverage opinion, actuarial benchmark, or guarantee of savings. Confirm all findings against policy documents, payroll/revenue records, carrier rules, and applicable law.</footer>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+const number=id=>{const v=parseFloat($(id).value);return Number.isFinite(v)&&v>=0?v:null};
+let lastReport='';
+function val(id){return ($(id).value||'').trim()}
+function checked(id){return $(id).checked}
+function generate(e){
+if(e)e.preventDefault();
+const data={};['company','contact','trade','state','cslb','renewal','revenue','payroll','employees','vehicles','wc','gl','auto','umbrella','property','other','wcBenchmark','glBenchmark','notes'].forEach(id=>data[id]=val(id));
+['classCodes','audit','subs','contracts','certs','losses','renewalIssue','markets'].forEach(id=>data[id]=checked(id));
+const premiums=['wc','gl','auto','umbrella','property','other'].map(id=>number(id)).filter(v=>v!==null);
+const total=premiums.length?premiums.reduce((a,b)=>a+b,0):null;
+const rev=number('revenue'),pay=number('payroll'),wc=number('wc'),gl=number('gl');
+const wcRate=wc!==null&&pay>0?wc/pay*100:null;
+const glRate=gl!==null&&rev>0?gl/rev*1000:null;
+const findings=[];
+function add(level,title,detail){findings.push({level,title,detail})}
+if(checked('classCodes'))add('high','Review workers’ compensation class codes and payroll allocation','Compare actual duties, payroll by class, owner/officer status, subcontractor treatment, and the policy/audit basis. A review is not a conclusion that the current classification is wrong.');
+if(checked('audit'))add('high','Prepare for the workers’ compensation audit','Reconcile payroll reports, certificates, subcontractor invoices, and class-code allocation before the audit or dispute deadline.');
+if(checked('subs'))add('high','Tighten subcontractor documentation','Review written agreements, certificates, applicable endorsements, licenses, and the records needed to support the intended treatment at audit.');
+if(checked('contracts'))add('high','Verify contract insurance requirements','Compare the contract with actual policy forms and endorsements, including additional insured, primary/noncontributory, waiver of subrogation, completed operations, and limits where required.');
+if(checked('losses'))add('medium','Review loss runs and loss-control actions','Confirm loss runs are complete and identify open claims, recurring causes, reserves, and documented corrective actions with the carrier.');
+if(checked('certs'))add('medium','Review certificate turnaround and accuracy','Set a clear certificate request process and verify that certificates reflect the underlying policy. A certificate alone does not amend coverage.');
+if(checked('renewalIssue'))add('high','Build a renewal plan now','Confirm the renewal date, submission requirements, loss runs, payroll/revenue, vehicle schedules, subcontractor exposure, and time needed to approach appropriate markets.');
+if(checked('markets'))add('medium','Review marketing strategy and carrier fit','Confirm which markets were approached, appetite fit, declinations, and whether submission data and risk controls are positioned consistently.');
+if(rev===null)add('medium','Revenue not entered','A revenue-based GL exposure ratio cannot be calculated until annual revenue and GL premium are available.');
+if(pay===null)add('medium','Payroll not entered','A workers’ compensation premium-per-payroll ratio cannot be calculated until payroll and WC premium are available.');
+if(rev!==null&&rev>0&&gl===null)add('low','GL premium not entered','Add the annual GL premium to calculate a basic premium-to-revenue ratio.');
+if(pay!==null&&pay>0&&wc===null)add('low','WC premium not entered','Add the annual WC premium to calculate a basic premium-to-payroll ratio.');
+if(!findings.length)add('low','No review flags selected','No specific issues were flagged in this intake. This is not a confirmation that coverage, pricing, or compliance is adequate.');
+const benchmark=[];
+let wcCompare=null,glCompare=null;
+if(wcRate!==null&&number('wcBenchmark')!==null){
+ const b=number('wcBenchmark');wcCompare=(wcRate-b)/b*100;
+ if(b===0){wcCompare=null}else if(wcCompare>0) add('medium','WC rate is above the entered comparison rate', 'The entered rate is '+wcRate.toFixed(2)+' per $100 payroll versus '+b.toFixed(2)+' provided as a benchmark. Validate that class codes, experience, carrier pricing, fees, and policy terms are comparable before drawing conclusions.');
+ else add('low','WC rate is at or below the entered comparison rate','This is a directional comparison only; confirm the benchmark basis and compare coverage, fees, experience, and classifications.');
+ benchmark.push({line:'Workers’ compensation',actualRate:wcRate,benchmarkRate:b,variancePercent:wcCompare});
+}
+if(glRate!==null&&number('glBenchmark')!==null){
+ const b=number('glBenchmark');glCompare=b>0?(glRate-b)/b*100:null;
+ if(b===0){add('medium','GL benchmark cannot be compared','The entered benchmark is zero. Enter a valid positive rate if a comparison is available.')}
+ else if(glCompare>0)add('medium','GL rate is above the entered comparison rate','The entered rate is '+glRate.toFixed(2)+' per $1,000 revenue versus '+b.toFixed(2)+' provided as a benchmark. Validate trade/class, subcontracted costs, limits, exposures, and policy terms before drawing conclusions.');
+ else add('low','GL rate is at or below the entered comparison rate','This is a directional comparison only; confirm the benchmark basis and compare exclusions, limits, and exposure assumptions.');
+ benchmark.push({line:'General liability',actualRate:glRate,benchmarkRate:b,variancePercent:glCompare});
+}
+const dateText=val('renewal')?new Date(val('renewal')+'T12:00:00').toLocaleDateString():'Not provided';
+const name=val('company')||'Contractor (business name not provided)';
+const top=findings.slice().sort((a,b)=>({high:0,medium:1,low:2}[a.level]-({high:0,medium:1,low:2}[b.level]))).slice(0,3);
+let html='<div class="kpis"><div class="kpi"><span>Annual premium total entered</span><strong>'+(total===null?'—':money(total))+'</strong></div><div class="kpi"><span>WC premium per $100 payroll</span><strong>'+(wcRate===null?'—':money(wcRate))+'</strong></div><div class="kpi"><span>GL premium per $1,000 revenue</span><strong>'+(glRate===null?'—':money(glRate))+'</strong></div><div class="kpi"><span>Review items flagged</span><strong>'+findings.filter(f=>f.level!=='low').length+'</strong></div></div>';
+html+='<div class="section"><h3>Business snapshot</h3><p><strong>'+escapeHtml(name)+'</strong><br>'+escapeHtml(val('trade')||'Trade not provided')+' · '+escapeHtml(val('state')||'State not provided')+'<br>Revenue: '+(rev===null?'Not provided':money(rev))+' · WC payroll: '+(pay===null?'Not provided':money(pay))+'<br>Renewal: '+escapeHtml(dateText)+' · Vehicles: '+(number('vehicles')===null?'Not provided':number('vehicles'))+'</p></div>';
+html+='<div class="section"><h3>Priority review items</h3>';
+findings.sort((a,b)=>({high:0,medium:1,low:2}[a.level]-({high:0,medium:1,low:2}[b.level]))).forEach(f=>{html+='<div class="finding"><span class="pill '+f.level+'">'+f.level.toUpperCase()+'</span><strong>'+escapeHtml(f.title)+'</strong><p>'+escapeHtml(f.detail)+'</p></div>'});
+html+='</div><div class="section"><h3>Premium detail</h3><p>Workers’ compensation: '+(wc===null?'Not provided':money(wc))+'<br>General liability: '+(gl===null?'Not provided':money(gl))+'<br>Commercial auto: '+(number('auto')===null?'Not provided':money(number('auto')))+'<br>Umbrella / excess: '+(number('umbrella')===null?'Not provided':money(number('umbrella')))+'<br>Property / tools / inland marine: '+(number('property')===null?'Not provided':money(number('property')))+'<br>Other: '+(number('other')===null?'Not provided':money(number('other')))+'</p></div>';
+if(benchmark.length){html+='<div class="section"><h3>Entered benchmark comparison</h3><p>Comparisons below use the benchmark rates entered by the user. No external benchmark data is included in this tool.</p>';benchmark.forEach(b=>{html+='<p><strong>'+b.line+':</strong> actual '+money(b.actualRate)+' per applicable unit; benchmark '+money(b.benchmarkRate)+'; variance '+(b.variancePercent===null?'not calculable':(b.variancePercent>0?'+':'')+b.variancePercent.toFixed(1)+'%')+'.</p>'});html+='</div>'}
+if(val('notes'))html+='<div class="section"><h3>Notes supplied</h3><p>'+escapeHtml(val('notes')).replace(/\n/g,'<br>')+'</p></div>';
+html+='<div class="section"><h3>Recommended next steps</h3><ol><li>Validate the declarations, endorsements, premium basis, payroll/revenue, and loss runs.</li><li>Address the highest-priority documentation or contract requirement first.</li><li>Before remarketing, confirm renewal timing and build a complete, consistent submission.</li></ol><p class="fine">No savings estimate is shown unless a validated, comparable benchmark and calculation basis are available. Premium ratios are screening metrics, not actuarial rates or proof of overpayment.</p></div>';
+$('empty').classList.add('hidden');$('output').classList.remove('hidden');$('output').innerHTML=html;$('reportSub').textContent=name+' · Generated '+new Date().toLocaleDateString();
+lastReport='CONTRACTOR INSURANCE RISK ANALYSIS\n'+name+'\nTrade: '+(val('trade')||'Not provided')+'\nAnnual premium total entered: '+(total===null?'Not provided':money(total))+'\nWC premium per $100 payroll: '+(wcRate===null?'Not calculable':money(wcRate))+'\nGL premium per $1,000 revenue: '+(glRate===null?'Not calculable':money(glRate))+'\n\n'+findings.map(f=>f.level.toUpperCase()+': '+f.title+' — '+f.detail).join('\n')+'\n\nNext steps: Validate policy documents and exposure data; address priority documentation issues; prepare renewal/marketing plan.\n\nPreliminary screening only; not a quote, coverage opinion, actuarial benchmark, or guarantee of savings.';
+window.__diagnosticData={createdAt:new Date().toISOString(),business:data,calculated:{annualPremiumTotal:total,wcPremiumPer100Payroll:wcRate,glPremiumPer1000Revenue:glRate,benchmarkComparisons:benchmark},findings:findings};
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+$('intake').addEventListener('submit',generate);
+$('clear').addEventListener('click',()=>{if(confirm('Clear all entered information?')){$('intake').reset();$('output').innerHTML='';$('output').classList.add('hidden');$('empty').classList.remove('hidden');$('reportSub').textContent='Complete the intake and select “Generate diagnostic.”';lastReport='';window.__diagnosticData=null}});
+$('print').addEventListener('click',()=>{if(!window.__diagnosticData){alert('Generate the diagnostic first.');return}window.print()});
+$('export').addEventListener('click',()=>{if(!window.__diagnosticData){alert('Generate the diagnostic first.');return}const blob=new Blob([JSON.stringify(window.__diagnosticData,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='contractor-insurance-diagnostic.json';a.click();URL.revokeObjectURL(a.href)});
+$('copy').addEventListener('click',async()=>{if(!lastReport){alert('Generate the diagnostic first.');return}try{await navigator.clipboard.writeText(lastReport);alert('Summary copied.')}catch(e){const t=document.createElement('textarea');t.value=lastReport;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();alert('Summary copied.')}});
+})();
+</script>
+</body>
+</html>
